@@ -24,3 +24,12 @@ style-components
 babel
 
 
+
+# anotaçao1
+1 tela unica
+2 nav com link para cada tela 
+3 indicadores com referencia
+4 container 2 tabela altura dinamica 
+
+
+# anotaçao2
