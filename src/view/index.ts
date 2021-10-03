@@ -1,1 +1,5 @@
-export * from './dashboard';
+export * from './dashboard'
+export * from './login'
+export * from './createAccount'
+export * from './passwordRecover'
+export * from './congrates'

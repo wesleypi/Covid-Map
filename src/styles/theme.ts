@@ -14,6 +14,14 @@ export const theme = {
   OverlayBg: 'rgba(242,243,245, 0.8)',
   ModalShadow: 'rgba(0,0,0, 0.5)',
   CountdownShadow: 'rgba(0,0,0,0.05)',
-  CountdownBorder: '#f0f1f3aa'
+  CountdownBorder: '#f0f1f3aa',
 
+  // Colors
+  primaryColor: '#757575',
+  primaryColorDark: '#494949',
+  primaryColorLight: '#a4a4a4',
+  secondaryColor: '#546e7a',
+  secondaryColorDark: '#29434e',
+  secondaryColorLight: '#819ca9',
+  textOnColor: '#fff',
 }

@@ -31,7 +31,7 @@ export default class MyDocument extends Document {
 
   render(){
     return (
-      <Html>
+      <Html lang="en-US">
         <Head>
           <link rel="shortcut icon" href="favicon.png" type="image/png"/>
           <link rel="preconnect" href="https://fonts.gstatic.com"/>
@@ -43,6 +43,6 @@ export default class MyDocument extends Document {
         </body>
       </Html>
     )
-  
+
   }
 }
