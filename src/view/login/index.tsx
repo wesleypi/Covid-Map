@@ -73,10 +73,11 @@ export const Login = () => {
 
               <button 
                 onClick={()=>resquestFn()}
-                style={{background: `${username && password ?'green' :'red'}`}} 
+                style={{background: `${username && password ?'black' :'gray'}`}} 
                 className="access" 
-                type="submit">Access
-
+                type="submit" onSubmitCapture={(
+                  (event) => {`${username && password ? 
+                    () => {window.location.href = './congrates'}: () => {event.preventDefault}}`})}>Access
               </button>
 
               <button className="createAccount" type="submit" ><Link href='/createAccount'><a>Create your account</a></Link></button>
@@ -84,11 +85,7 @@ export const Login = () => {
               <button className="access"><Link href='/PasswordRecover'><a>Forget Password</a></Link></button>
             </div>
           </form>
-
-
         </section>
-
-
     </Container>
   )
 }

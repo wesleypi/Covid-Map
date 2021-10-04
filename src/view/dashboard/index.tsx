@@ -6,26 +6,37 @@ export const Dashboard = () => {
   return (
     <Container>
       <div className="header">
-        <img src="4.png" alt="" width="100"/>
+        <div id= "logo">
+          <img src="3.png" alt="" width="100"/>
+        </div>
 
         <div className="settings">
           <p>Hello Felipe</p>
           <div>
-          <img src="lupa.svg" alt="lupa" width="30"/>
-          <img src="engrnagem.svg" alt="engrenagem" width="30" />
+            <img  src="lupa.svg" alt="lupa" className="is-white" />
+            <img  src="engrnagem.svg" alt="engrenagem" className="is-white" />
           </div>
         </div>
+        
       </div>
-      
-
-        <div className="mainList">
-          <ul>
+      <nav>
+          <ul id ="navigation">
+            <li>
+              <Link href="/restaurants">
+                <a>
+                  <img src="\restaurant_menu.svg" alt="Comerce" className="is-white"/>
+                  <div>
+                    
+                  </div> 
+                </a>
+              </Link>
+            </li>
             <li>
               <Link href="/party">
                 <a>
-                  <img src="" alt="" />
+                  <img src="/danca.png" alt="Party" className="is-white" />
                   <div>
-                    divParty
+                    
                   </div> 
                 </a>
               </Link>
@@ -33,45 +44,29 @@ export const Dashboard = () => {
             <li>
               <Link href="/comerce">
                 <a>
-                  <img src="" alt="" />
+                  <img src="/shopping-cart.png" alt="Centers" className="is-white" />
                   <div>
-                    divParty
+                    
                   </div> 
                 </a>
               </Link>
             </li>
             <li>
-              <Link href="/party">
+              <Link href="/covid data">
                 <a>
-                  <img src="" alt="" />
+                  <img src="/map-marked.svg" alt="Map" className="is-white"/>
                   <div>
-                    divParty
-                  </div> 
-                </a>
-              </Link>
-            </li>
-            <li>
-              <Link href="/covidData">
-                <a>
-                  <img src="" alt="" />
-                  <div>
-                    divParty
-                  </div> 
-                </a>
-              </Link>
-            </li>
-            <li>
-              <Link href="/restaurants">
-                <a>
-                  <img src="" alt="" />
-                  <div>
-                    divParty
+                    
                   </div> 
                 </a>
               </Link>
             </li>
           </ul>
-        </div>
+        </nav>
+      <section>
+        
+      </section>
+        
     </Container>
   )
 }

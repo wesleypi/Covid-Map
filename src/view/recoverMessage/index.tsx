@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import {Container} from './styled'
 
-export const Congrates = () => {
+export const recoverMessage = () => {
     return (
         <Container>
             <div id="logo-box">
@@ -12,8 +12,8 @@ export const Congrates = () => {
             </div>
 
             <main className ="show-message">
-                <h1 id="title">Thankyou!</h1>
-                    <p id="text">Our team will analise your submit in feel minutes you must receive a confirmation e-mail, please check your inbox e-mail.</p>
+                <h1 id="title">Hey!</h1>
+                    <p id="text">We send you a link to your registration email. Go there to retrieve your password.</p>
                 <nav>
                     <button className="backLogin" type="submit" ><Link href='/login'><a>Back</a></Link></button>
                 </nav>
